@@ -1,0 +1,87 @@
+object Form1: TForm1
+  Left = 311
+  Height = 266
+  Top = 157
+  Width = 606
+  Caption = 'Form1'
+  ClientHeight = 266
+  ClientWidth = 606
+  LCLVersion = '3.0.0.3'
+  object ListView1: TListView
+    Left = 8
+    Height = 194
+    Top = 40
+    Width = 590
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Columns = <    
+      item
+        Caption = 'File'
+        Width = 100
+      end    
+      item
+        Caption = 'Path'
+        Width = 250
+      end    
+      item
+        Caption = 'Old Size'
+      end    
+      item
+        Caption = 'New size'
+      end    
+      item
+        Caption = 'Result'
+      end>
+    TabOrder = 0
+    ViewStyle = vsReport
+  end
+  object ProgressBar1: TProgressBar
+    Left = 8
+    Height = 20
+    Top = 242
+    Width = 590
+    Anchors = [akLeft, akRight, akBottom]
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 466
+    Height = 25
+    Top = 6
+    Width = 75
+    Anchors = [akTop, akRight]
+    Caption = 'Run'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 88
+    Height = 23
+    Top = 8
+    Width = 370
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 3
+    Text = 'D:\## WORK\FREE PASCAL\## VECHI\THREADS\Threads UPX\upx.exe'
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Add file...'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 546
+    Height = 23
+    Top = 8
+    Width = 50
+    Anchors = [akTop, akRight]
+    OnChange = SpinEdit1Change
+    TabOrder = 5
+    Value = 1
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 72
+    Top = 152
+  end
+end

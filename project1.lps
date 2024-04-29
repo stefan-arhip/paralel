@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="41"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="105"/>
+        <CursorPos X="39" Y="116"/>
+        <UsageCount Value="41"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="11" HistoryIndex="10">
+      <Position1>
+        <Filename Value="unit1.pp"/>
+        <Caret Line="377" Column="51" TopLine="348"/>
+      </Position1>
+      <Position2>
+        <Filename Value="unit1.pp"/>
+        <Caret Line="105" Column="19" TopLine="98"/>
+      </Position2>
+      <Position3>
+        <Filename Value="unit1.pp"/>
+        <Caret Line="19" Column="80"/>
+      </Position3>
+      <Position4>
+        <Filename Value="unit1.pp"/>
+        <Caret Line="118" Column="17" TopLine="116"/>
+      </Position4>
+      <Position5>
+        <Filename Value="unit1.pp"/>
+        <Caret Line="370" Column="69" TopLine="328"/>
+      </Position5>
+      <Position6>
+        <Filename Value="unit1.pp"/>
+      </Position6>
+      <Position7>
+        <Filename Value="unit1.pp"/>
+        <Caret Line="68" Column="19" TopLine="25"/>
+      </Position7>
+      <Position8>
+        <Filename Value="unit1.pp"/>
+        <Caret Line="118" Column="17" TopLine="81"/>
+      </Position8>
+      <Position9>
+        <Filename Value="unit1.pp"/>
+        <Caret Line="356" Column="29" TopLine="315"/>
+      </Position9>
+      <Position10>
+        <Filename Value="unit1.pp"/>
+        <Caret Line="357" Column="24" TopLine="314"/>
+      </Position10>
+      <Position11>
+        <Filename Value="unit1.pp"/>
+        <Caret Line="208" Column="25" TopLine="192"/>
+      </Position11>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
